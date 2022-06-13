@@ -4,7 +4,7 @@ Resources:
       Type: AWS::Lambda::Function
       Properties:
         Name: "LambdaCICDTest"
-        Alias: "one"
+        Alias: "one"  
         CurrentVersion: "1"
         TargetVersion: "2"
 Hooks:
