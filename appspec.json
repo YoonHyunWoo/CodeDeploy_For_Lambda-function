@@ -1,0 +1,21 @@
+{
+    "version": 0.0,
+    "Resources": [{
+        "LambdaCICDTest": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Name": "LambdaCICDTest",
+                "Alias": "one",
+                "CurrentVersion": "1",
+                "TargetVersion": "2"
+            }
+        }
+    }],
+    "Hooks": [{
+            "BeforeAllowTraffic": "verificationFunction"
+     },
+     {
+            "AfterAllowTraffic": "verificationFunction"
+        }
+    ]
+}
