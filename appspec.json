@@ -12,10 +12,10 @@
         }
     }],
     "Hooks": [{
-            "BeforeAllowTraffic": "verificationFunction"
+            "BeforeAllowTraffic": "LambdaFunctionToValidateBeforeTrafficShift"
      },
      {
-            "AfterAllowTraffic": "verificationFunction"
+            "AfterAllowTraffic": "LambdaFunctionToValidateAfterTrafficShift"
         }
     ]
 }
