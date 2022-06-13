@@ -10,3 +10,4 @@ Resources:
 Hooks:
   - BeforeAllowTraffic: "verificationFunction"
   - AfterAllowTraffic: "verificationFunction"  
+      
