@@ -5,7 +5,7 @@ Resources:
       Properties:
         Name: "LambdaCICDTest"
         Alias: "one"
-        CurrentVersion: "1"
+        CurrentVersion: "2"
         TargetVersion: "1"
 Hooks:
   - BeforeAllowTraffic: "LambdaFunctionToValidateBeforeTrafficShift"
