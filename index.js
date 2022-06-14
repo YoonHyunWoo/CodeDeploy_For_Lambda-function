@@ -7,5 +7,5 @@ exports.handler = async (event) => {
 
     console.log("Hello Lambda Deploy!")
 
-    return response;
+    return "Hello Lambda Deploy";
 };
