@@ -4,5 +4,8 @@ exports.handler = async (event) => {
         statusCode: 200,
         body: JSON.stringify('Hello from Lambda!'),
     };
+
+    console.log("Hello Lambda Deploy!")
+
     return response;
 };
